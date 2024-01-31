@@ -1,0 +1,67 @@
+.custom-sidenav-container{
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 17.12%;
+  height: 100vh;
+}
+.hamburger-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333; /* Adjust the color as needed */
+  outline: none;
+}
+
+
+
+
+.sidenav-container {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.rs-sidenav,
+.rs-sidenav-body {
+  background-color: #fff; /* Adjust the background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Styling for Nav items and menus */
+.rs-nav-item,
+.rs-nav-menu {
+  color: #333; /* Adjust the text color as needed */
+}
+
+.rs-nav-menu-title {
+  color: #555; /* Adjust the menu title color as needed */
+}
+
+/* Add this CSS to your stylesheets or inline styles */
+.custom-sidenav-container {
+  width: 240px;
+  background-color: #1d1d1d;
+  color: white;
+  padding: 10px;
+  position: fixed;
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.admin-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.admin-name {
+  font-size: 16px;
+  font-weight: bold;
+}
