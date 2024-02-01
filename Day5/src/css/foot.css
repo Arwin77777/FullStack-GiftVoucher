@@ -1,0 +1,56 @@
+/* Updated CSS with "foot" prefix for class names */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.foot-footer-section {
+  background: #151414;
+  position: relative;
+  margin-top: 25vh;
+}
+
+.foot-footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.foot-single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.foot-cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.foot-cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.foot-cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+/* ... (rest of the styles with "foot" prefix) ... */
+
+.foot-footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.foot-footer-menu li:hover a {
+  color: #ff5e14;
+}
+
+.foot-footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
