@@ -1,0 +1,43 @@
+.card-slider-container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .card-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .card {
+    flex: 0 0 15vw;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Set height equal to width to make it a perfect circle */
+    margin-right: 0px; /* Adjust as needed */
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .circle-card {
+    /* background-color: #3498db; */
+    height: 30vh;
+    width: 30vw;
+    border-radius: 50%;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+  .card-slider::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
